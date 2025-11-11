@@ -13,7 +13,7 @@
 3. Associative Array( index-by table): You choose the key type e.g: integer or varchar, very efficient for lookups by key (e.g employee-ID -> f-name) and it has no size built-in limit.
 
 
-# Why use collections?
+  # Why use collections?
 
 - Handle lists of data in memory instead of one by one.
 - To perform operations like looping through multiple salaries, deleting bad data, extending arrays, mapping keys to values.
@@ -33,7 +33,8 @@
 
 # GOTO Statement: The GOTO statement in PL/SQL lets you jump to a labelled point in your code.
 
-  For example:
+   ## For example:
+   
   IF some_condition THEN
   GOTO error_label;
   END IF;
@@ -42,7 +43,7 @@
   DBMS_OUTPUT.PUT_LINE('Error happened');
 
 
-# Why use GOTO?
+  # Why use GOTO?
 
  - To handle " early exit " logic or jump to cleanup/error handling sections.
  - It's a tool, but in modern code many developers prefer structured flows( exceptions, loops, procedures) instead of GOTO.
@@ -51,7 +52,7 @@
 
 
 
-#END   
+# ---- END ----   
 
     
 
