@@ -1,4 +1,5 @@
-# GO-TO-Assignment
+# plsql_Collections, Records and GO-TO Assignment
+
 # 27146 Alvin Munyambo
 
 # This repository contains Oracle PL/SQL scripts that demonstrate:
@@ -19,7 +20,7 @@
 - Helps your PL/SQL logic be more efficient and expressive.
 
 
-  # Records : A record lets you group different types of data together under one name. It's similar to a 'struct' in other programming languages.
+# Records : A record lets you group different types of data together under one name. It's similar to a 'struct' in other programming languages.
 
   - You can use %ROWTYPE to create a record that matches the structure of a table row. For example employees%ROWTYPE gives you a record with all the columns of the employees table.
   - You can define your own record type (using TYPE record_name IS RECORD (...)) with custom fields.
@@ -30,7 +31,7 @@
     - To make code cleaner
    
 
-  # GOTO Statement: The GOTO statement in PL/SQL lets you jump to a labelled point in your code.
+# GOTO Statement: The GOTO statement in PL/SQL lets you jump to a labelled point in your code.
 
   For example:
   IF some_condition THEN
@@ -41,7 +42,7 @@
   DBMS_OUTPUT.PUT_LINE('Error happened');
 
 
-  # Why use GOTO?
+# Why use GOTO?
 
  - To handle " early exit " logic or jump to cleanup/error handling sections.
  - It's a tool, but in modern code many developers prefer structured flows( exceptions, loops, procedures) instead of GOTO.
